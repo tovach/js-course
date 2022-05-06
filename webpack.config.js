@@ -76,7 +76,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: filename('css'),
     }),
-    [new ESLintPlugin()],
+    new ESLintPlugin(),
   ],
   experiments: {
     topLevelAwait: true,
