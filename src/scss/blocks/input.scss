@@ -1,0 +1,18 @@
+.input {
+  font-size: 18px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.input--primary {
+}
+
+.input--secondary {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  outline-color: $accent-primary;
+}
+
+.input--tertiary {
+  outline-color: transparent;
+}
