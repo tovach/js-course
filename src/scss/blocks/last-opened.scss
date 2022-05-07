@@ -1,0 +1,36 @@
+.last-opened {
+  padding: 20px 0;
+  background: $accent-secondary;
+}
+
+.last-opened__list {
+  display: flex;
+  gap: 10px;
+}
+
+.last-opened__item {
+}
+
+.opened-item {
+  text-align: center;
+  width: 180px;
+}
+
+.opened-item__link {
+}
+
+.opened-item__image {
+  border: 1px transparent solid;
+
+  width: 100%;
+
+  &:hover {
+    border: 1px $accent-tertiary solid;
+    box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.2);
+  }
+}
+
+.opened-item__heading {
+  font-weight: 500;
+  font-size: 14px;
+}

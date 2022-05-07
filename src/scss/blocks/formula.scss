@@ -1,0 +1,21 @@
+.formula {
+}
+.formula__input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  label {
+    display: flex;
+    min-width: $row-number-width;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    color: $text-secondary;
+    border-right: 1px $divider-color solid;
+  }
+  input {
+    width: 100%;
+  }
+}
+

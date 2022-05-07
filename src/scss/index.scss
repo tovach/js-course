@@ -1,5 +1,6 @@
-$foo: red;
+@import "helpers/vars";
+@import "helpers/mixins";
 
-body {
-  background: $foo;
-}
+@import "general";
+
+@import "blocks/imports";

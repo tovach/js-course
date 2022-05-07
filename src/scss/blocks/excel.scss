@@ -1,0 +1,11 @@
+.excel{
+  position: relative;
+}
+.excel__header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.excel__table {}

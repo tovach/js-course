@@ -1,0 +1,16 @@
+.toolbar {
+}
+
+.toolbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar__text-formatting {
+  display: flex;
+  gap: 10px;
+}
+.toolbar__history-nav {
+  display: flex;
+  gap: 10px;
+}

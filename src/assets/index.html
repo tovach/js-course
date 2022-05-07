@@ -1,0 +1,84 @@
+<div class='dashboard'>
+  <header class='dashboard__app-bar app-bar'>
+    <div class='container'>
+      <div class='app-bar__wrapper'>
+        <div class='app-bar__logo logo'>
+          <img src='assets/img/logo.png' alt=''>
+          <h1>JS Excel</h1>
+        </div>
+
+        <div class='app-bar__search'>
+          <input class='input input--primary' type='text' placeholder='Поиск' />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class='dashboard__last-opened last-opened'>
+    <div class='container'>
+      <ul class='last-opened__list'>
+        <li class='last-opened__item opened-item'>
+          <a class='opened-item__link' href='#'>
+            <img class='opened-item__image' src='assets/img/new-blank.png' alt='Создать новую таблицу'>
+          </a>
+          <h5 class='opened-item__heading'>Создать новую таблицу</h5>
+        </li>
+        <li class='last-opened__item opened-item'>
+          <a class='opened-item__link' href='#'>
+            <img class='opened-item__image' src='assets/img/new-blank.png' alt='Создать новую таблицу'>
+          </a>
+          <h5 class='opened-item__heading'>Создать новую таблицу</h5>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class='dashboard__list-tables list-tables'>
+    <div class='container'>
+      <div class='list-tables__header list-tables__row'>
+        <h3>Название</h3>
+        <p>Дата просмотра</p>
+        <div>
+          <button class='button button--primary'>
+            <span class='material-icons'>sort_by_alpha</span>
+          </button>
+        </div>
+      </div>
+
+      <ul class='list-tables__list'>
+        <li class='list-tables__item list-tables__row item-tables'>
+          <div class='item-tables__heading'>
+            <span class='material-icons'>toc</span>
+            <h3>Название таблицы</h3>
+          </div>
+          <div class='item-tables__date'>
+            18.02.2022
+          </div>
+
+          <div class='item-tables__options'>
+            <button class='button button--primary'>
+              <span class='material-icons'>more_vert</span>
+            </button>
+          </div>
+
+        </li>
+        <li class='list-tables__item list-tables__row item-tables'>
+          <div class='item-tables__heading'>
+            <span class='material-icons'>toc</span>
+            <h3>Название таблицы</h3>
+          </div>
+          <div class='item-tables__date'>
+            18.02.2022
+          </div>
+
+          <div class='item-tables__options'>
+            <button class='button button--primary'>
+              <span class='material-icons'>more_vert</span>
+            </button>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
